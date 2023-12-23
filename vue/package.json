@@ -1,0 +1,21 @@
+{
+  "name": "read-video-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vk-miniapps-deploy",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@vkontakte/vk-miniapps-deploy": "^0.1.6",
+    "dynamsoft-javascript-barcode": "^9.6.32",
+    "vue": "^2.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}
